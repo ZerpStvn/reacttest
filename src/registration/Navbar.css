@@ -1,0 +1,24 @@
+.ass{
+
+    height: 830px;
+    width: 500px;
+    background-color: aquamarine; 
+}
+button{
+    display: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 14;
+    font-weight: bold;
+}
+li{
+    padding: 10px;
+}
+.Navbar.mobile ul{
+    display: none;
+}
+.Navbar.mobile button{
+    display:flex;
+}
